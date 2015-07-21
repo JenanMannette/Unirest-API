@@ -1,2 +1,7 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+{{#books}}
+<article>
+    <h2>{{title}}</h2><br>
+    by <strong>{{author}}</strong><br>
+    <img src="{{book_image}}" alt="Book Image" />
+</article>
+{{/books}}
