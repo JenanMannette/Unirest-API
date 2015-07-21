@@ -1,7 +1,8 @@
 {{#books}}
-<article>
-    <h2>{{title}}</h2><br>
-    by <strong>{{author}}</strong><br>
-    <img src="{{book_image}}" alt="Book Image" />
+<article class = "book" style="background: url({{book_image}}) no-repeat; background-size: cover; background-color: black">
+    <h2>{{title}}</h2>
+    <p>
+      <strong><h3>by {{author}}</h3></strong>
+    </p>
 </article>
 {{/books}}
